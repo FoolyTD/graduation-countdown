@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono&family=Xanh+Mono&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("night-fireworks.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    font-family: "Roboto Mono";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 8rem;
+    font-family: 'Lora', monospace;
+    padding: .8rem;
+    color:#FFFFFF;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: normal;
+    font-weight: bold;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+    margin: 5px;
+    color:#FFFFFF;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+}
